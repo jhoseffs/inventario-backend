@@ -28,7 +28,7 @@ public class SecurityConfig {
                             new org.springframework.web.cors.CorsConfiguration();
 
                   config.setAllowedOrigins(List.of(
-        "https://inventario-backend-eqe7.onrender.com",
+        "https://inventario-frontend-uh82.onrender.com",
         "http://localhost:5500", // <-- Agregado
         "http://127.0.0.1:5500"  // <-- Agregado
  ));
